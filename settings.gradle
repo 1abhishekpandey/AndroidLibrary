@@ -1,0 +1,3 @@
+include ':AbhishekFirstLibrary'
+include ':app'
+rootProject.name = "Rudderstack2Example"

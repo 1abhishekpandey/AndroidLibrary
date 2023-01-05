@@ -4,14 +4,6 @@ plugins {
 
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-//apply plugin: 'kotlin-android-extensions'
-//apply plugin: 'com.vanniktech.maven.publish' // NEW
-
-//apply plugin: 'maven'
-//apply plugin: 'signing'
-//group = "com.github.1abhishekpandey"
-//archivesBaseName = "AbhishekFirstLibrary2"
-//version = "0.1.1"
 
 
 
@@ -39,62 +31,6 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
-
-
-//configurations {
-//    archives {
-//        extendsFrom configurations.default
-//    }
-//}
-
-//signing {
-//    sign configurations.archives
-//}
-
-//uploadArchives {
-//    repositories {
-//        mavenDeployer {
-//            beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
-//
-//            repository(url: "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/") {
-//                authentication(userName: ossrhUsername, password: ossrhPassword)
-//            }
-//
-//            snapshotRepository(url: "https://s01.oss.sonatype.org/content/repositories/snapshots/") {
-//                authentication(userName: ossrhUsername, password: ossrhPassword)
-//            }
-//
-//            pom.project {
-//                name 'Example Application'
-//                packaging 'jar'
-//                // optionally artifactId can be defined here
-//                description 'A application used as an example on how to set up pushing  its components to the Central Repository.'
-//                url 'http://www.example.com/example-application'
-//
-//                scm {
-//                    connection 'scm:svn:http://foo.googlecode.com/svn/trunk/'
-//                    developerConnection 'scm:svn:https://foo.googlecode.com/svn/trunk/'
-//                    url 'http://foo.googlecode.com/svn/trunk/'
-//                }
-//
-//                licenses {
-//                    license {
-//                        name 'The Apache License, Version 2.0'
-//                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-//                    }
-//                }
-//
-//                developers {
-//                    developer {
-//                        id 'manfred'
-//                        name 'Manfred Moser'
-//                        email 'manfred@sonatype.com'
-//                    }
-//                }
-//            }
-//        }
-//    }
-//}
 
 dependencies {
 

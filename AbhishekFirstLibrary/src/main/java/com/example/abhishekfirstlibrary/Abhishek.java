@@ -7,5 +7,9 @@ public class Abhishek {
         return a+b;
     }
 
+    public static int subtract2number(int a, int b) {
+        return a-b;
+    }
+
 
 }

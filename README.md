@@ -12,7 +12,7 @@ sonatypeStagingProfileId=
 
 keyId: The last eight digits of the GPG key that we generated earlier.
 password: Passphrase of the key pair.
-key: base64 encoded format of the private key.
+key: base64 encoded format of the private key. It should be a full long String. Ensure not to put 16 digit GPG key.
 ossrhUsername and ossrhPassword: Details submitted at the time of registration in Sonatype JIRA.
 To obtain sonatypeStagingProfileId, head over to https://s01.oss.sonatype.org and log in with the Sonatype credentials. Now click on StagingProfiles in the left panel, select your profile, then look for the ID in the URL. Have a look:
 ![image.png](imgage.png)
